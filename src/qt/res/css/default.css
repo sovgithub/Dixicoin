@@ -15,7 +15,7 @@ background-color:#ffffff;
 }
 
 .QFrame {
-background-color:#fff;
+background-color:transparent;
 border:0px solid #fff;
 }
 
@@ -68,7 +68,7 @@ font-weight:bold;
 }
 
 QMessageBox {
-background-color:#333;
+background-color:#F8F6F6;
 }
 
 QProgressBar {
@@ -108,7 +108,7 @@ outline:0; /* Remove Annoying Focus Rectangle */
 }
 
 QGroupBox {
-background-color:transparent;
+background-color:#fcfcfc;
 color:#333;
 }
 
@@ -127,7 +127,6 @@ color:#333;
 QLabel { /* Base Text Size & Color */
 font-size:12px;
 color:#fff;
-font-weight:bold;
 }
 
 .QRadioButton { /* Radio Button Labels */
@@ -149,7 +148,7 @@ font-size:11px;
 min-height:25px;
 outline:0;
 padding:3px;
-background-color:#d9d9d9;
+background-color:#fcfcfc;
 color:#333333;
 }
 
@@ -192,7 +191,7 @@ border:1px solid #333;
 QComboBox { /* Dropdown Menus */
 border:1px solid #474747;
 padding: 3px 5px 3px 5px;
-background:transparent;
+background:#fcfcfc;
 min-height:25px;
 color:#818181;
 }
@@ -251,7 +250,7 @@ selection-color:transparent;
 QAbstractSpinBox {
 border:1px solid #474747;
 padding: 3px 5px 3px 5px;
-background:transparent;
+background:#fcfcfc;
 min-height:25px;
 color:#818181;
 }
@@ -319,7 +318,7 @@ border-right:0;
 }
 
 .QScrollArea {
-background:#fff;
+background:transparent;
 border:0;
 }
 
@@ -329,7 +328,7 @@ border:1px solid #333;
 }
 
 QTableView::item { /* Table Item */
-background-color:transparent;
+background-color:#fcfcfc;
 font-size:12px;
 }
 
@@ -339,17 +338,17 @@ color:#fff;
 }
 
 QTableWidget { /* Table Background */
-background-color:transparent;
+background-color:red; /*#fcfcfc;*/
 border:1px solid #333;
 }
 
 QTableWidget:focus, QTableView, QTableView:focus { /* Remove focus outline */
 outline:0;
-background:#333;
+background:transparent;
 }
 
 QTreeWidget { /* Tree Background */
-background-color:transparent;
+background-color:#fcfcfc;
 alternate-background-color:#f2f2f2;
 color:#333;
 }
@@ -730,7 +729,6 @@ QDialog#RPCConsole QWidget#tab_info QLabel#label_11, QDialog#RPCConsole QWidget#
 qproperty-alignment: 'AlignBottom';
 min-height:25px;
 min-width:180px;
-color:#000
 }
 
 QDialog#RPCConsole QWidget#tab_peers QLabel#peerHeading { /* Peers Info Header */
@@ -738,7 +736,7 @@ color:#1928ff;
 }
 
 QDialog#RPCConsole QTableView#peerWidget::item { /* Peers Table Items */
-color:#fff;
+color:#333;
 }
 
 QDialog#RPCConsole QPushButton#openDebugLogfileButton {
@@ -747,7 +745,7 @@ max-width:60px;
 
 QDialog#RPCConsole QTextEdit#messagesWidget { /* Console Messages Window */
 border:0;
-background-color:transparent;
+background-color:#fcfcfc;
 color:#333;
 }
 
