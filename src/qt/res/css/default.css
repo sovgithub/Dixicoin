@@ -15,8 +15,8 @@ background-color:#ffffff;
 }
 
 .QFrame {
-background-color:transparent;
-border:0px solid #fff;
+background-color:#333;
+border:0px solid #333;
 }
 
 QMenuBar {
@@ -68,7 +68,7 @@ font-weight:bold;
 }
 
 QMessageBox {
-background-color:#F8F6F6;
+background-color:#333;
 }
 
 QProgressBar {
@@ -319,7 +319,7 @@ border-right:0;
 }
 
 .QScrollArea {
-background:transparent;
+background:#333;
 border:0;
 }
 
@@ -339,13 +339,13 @@ color:#fff;
 }
 
 QTableWidget { /* Table Background */
-background-color:red; /*#fcfcfc;*/
+background-color:#333;
 border:1px solid #333;
 }
 
 QTableWidget:focus, QTableView, QTableView:focus { /* Remove focus outline */
 outline:0;
-background:transparent;
+background:#333;
 }
 
 QTreeWidget { /* Tree Background */
