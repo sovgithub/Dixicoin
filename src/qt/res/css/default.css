@@ -108,7 +108,7 @@ outline:0; /* Remove Annoying Focus Rectangle */
 }
 
 QGroupBox {
-background-color:#fcfcfc;
+background-color:#d9d9d9;
 color:#333;
 }
 
@@ -192,7 +192,7 @@ border:1px solid #333;
 QComboBox { /* Dropdown Menus */
 border:1px solid #474747;
 padding: 3px 5px 3px 5px;
-background:#fcfcfc;
+background:#d9d9d9;
 min-height:25px;
 color:#818181;
 }
@@ -251,7 +251,7 @@ selection-color:transparent;
 QAbstractSpinBox {
 border:1px solid #474747;
 padding: 3px 5px 3px 5px;
-background:#fcfcfc;
+background:#d9d9d9;
 min-height:25px;
 color:#818181;
 }
@@ -329,7 +329,7 @@ border:1px solid #333;
 }
 
 QTableView::item { /* Table Item */
-background-color:#fcfcfc;
+background-color:#d9d9d9;
 font-size:12px;
 }
 
@@ -349,7 +349,7 @@ background:transparent;
 }
 
 QTreeWidget { /* Tree Background */
-background-color:#fcfcfc;
+background-color:#d9d9d9;
 alternate-background-color:#f2f2f2;
 color:#333;
 }
@@ -746,7 +746,7 @@ max-width:60px;
 
 QDialog#RPCConsole QTextEdit#messagesWidget { /* Console Messages Window */
 border:0;
-background-color:#fcfcfc;
+background-color:#d9d9d9;
 color:#333;
 }
 
