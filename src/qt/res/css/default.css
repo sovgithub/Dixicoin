@@ -15,8 +15,8 @@ background-color:#ffffff;
 }
 
 .QFrame {
-background-color:#333;
-border:0px solid #333;
+background-color:#fff;
+border:0px solid #fff;
 }
 
 QMenuBar {
@@ -108,7 +108,7 @@ outline:0; /* Remove Annoying Focus Rectangle */
 }
 
 QGroupBox {
-background-color:#d9d9d9;
+background-color:transparent;
 color:#333;
 }
 
@@ -192,7 +192,7 @@ border:1px solid #333;
 QComboBox { /* Dropdown Menus */
 border:1px solid #474747;
 padding: 3px 5px 3px 5px;
-background:#d9d9d9;
+background:transparent;
 min-height:25px;
 color:#818181;
 }
@@ -251,7 +251,7 @@ selection-color:transparent;
 QAbstractSpinBox {
 border:1px solid #474747;
 padding: 3px 5px 3px 5px;
-background:#d9d9d9;
+background:transparent;
 min-height:25px;
 color:#818181;
 }
@@ -295,7 +295,7 @@ image:url(':/images/downArrow_small');
 /****************************************************************************************/
 
 QHeaderView { /* Table Header */
-background-color:#000;
+background-color:transparent;
 outline:0;
 }
 
@@ -319,7 +319,7 @@ border-right:0;
 }
 
 .QScrollArea {
-background:#333;
+background:#fff;
 border:0;
 }
 
@@ -329,7 +329,7 @@ border:1px solid #333;
 }
 
 QTableView::item { /* Table Item */
-background-color:#d9d9d9;
+background-color:transparent;
 font-size:12px;
 }
 
@@ -339,7 +339,7 @@ color:#fff;
 }
 
 QTableWidget { /* Table Background */
-background-color:#333;
+background-color:transparent;
 border:1px solid #333;
 }
 
@@ -349,7 +349,7 @@ background:#333;
 }
 
 QTreeWidget { /* Tree Background */
-background-color:#d9d9d9;
+background-color:transparent;
 alternate-background-color:#f2f2f2;
 color:#333;
 }
@@ -730,6 +730,7 @@ QDialog#RPCConsole QWidget#tab_info QLabel#label_11, QDialog#RPCConsole QWidget#
 qproperty-alignment: 'AlignBottom';
 min-height:25px;
 min-width:180px;
+color:#000
 }
 
 QDialog#RPCConsole QWidget#tab_peers QLabel#peerHeading { /* Peers Info Header */
@@ -737,7 +738,7 @@ color:#1928ff;
 }
 
 QDialog#RPCConsole QTableView#peerWidget::item { /* Peers Table Items */
-color:#333;
+color:#fff;
 }
 
 QDialog#RPCConsole QPushButton#openDebugLogfileButton {
@@ -746,7 +747,7 @@ max-width:60px;
 
 QDialog#RPCConsole QTextEdit#messagesWidget { /* Console Messages Window */
 border:0;
-background-color:#d9d9d9;
+background-color:transparent;
 color:#333;
 }
 
