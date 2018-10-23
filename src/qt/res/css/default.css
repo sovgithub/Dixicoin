@@ -295,7 +295,7 @@ image:url(':/images/downArrow_small');
 /****************************************************************************************/
 
 QHeaderView { /* Table Header */
-background-color:transparent;
+background-color:#000;
 outline:0;
 }
 
