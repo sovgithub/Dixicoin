@@ -1582,11 +1582,13 @@ margin-bottom:2px;
 margin-right:1px;
 min-width:111px;
 text-align:center;
+color:#fff 
 }
 
 TransactionView QComboBox {
 margin-bottom:1px;
 margin-right:1px;
+color:#fff 
 }
 
 QLabel#transactionSumLabel { /* Example of setObjectName for widgets without name */
