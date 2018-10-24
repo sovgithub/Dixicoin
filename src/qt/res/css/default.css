@@ -1616,22 +1616,20 @@ color:#fff;
 
 QCalendarWidget QWidget#qt_calendar_navigationbar { /* Calendar widget navigation bar */
 background-color:#474747;
-font-weight:bold;
-color:#fff; 
+font-weight:bold; 
 }
 
 QCalendarWidget QAbstractItemView { /* Calendar widget days */
 alternate-background-color:#dedbe5;
 background-color:#fff;
-color:#fff;
 }
 
 QCalendarWidget QAbstractItemView:enabled { /* Calendar widget weekdays in month */
-color:#fff;
+color:#333;
 }
 
 QCalendarWidget QAbstractItemView:disabled { /* Calendar widget days not in month */
-color:#fff;
+color:#333;
 }
 
 #OverviewPage{
