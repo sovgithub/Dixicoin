@@ -217,11 +217,11 @@ border-image: url(':/images/downArrow') 0 0 0 0 stretch stretch;
 }
 
 QComboBox QListView {
-background:#fff;
+background:#333;
 border:1px solid #333;
 padding-right:1px;
 padding-left:1px;
-color:#818181;
+color:#fff;
 }
 
 QComboBox QAbstractItemView::item {
@@ -295,7 +295,7 @@ image:url(':/images/downArrow_small');
 /****************************************************************************************/
 
 QHeaderView { /* Table Header */
-background-color:#333;
+background-color:transparent;
 outline:0;
 }
 
@@ -324,7 +324,7 @@ border:0;
 }
 
 .QTableView { /* Table - has to be selected as a class otherwise it throws off QCalendarWidget */
-background:#333;
+background:transparent;
 border:1px solid #333;
 }
 
