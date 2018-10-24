@@ -223,7 +223,7 @@ background:#fff;
 border:1px solid #333;
 padding-right:1px;
 padding-left:1px;
-color:#ff0000;
+color:#818181;
 }
 
 QComboBox QAbstractItemView::item {
@@ -1624,13 +1624,10 @@ background-color:#fff;
 }
 
 QCalendarWidget QAbstractItemView:enabled { /* Calendar widget weekdays in month */
-color:#333;
+color:#fff;
 }
 
 QCalendarWidget QAbstractItemView:disabled { /* Calendar widget days not in month */
-color:#818181;
+color:#fff;
 }
 
-#OverviewPage{
-    color:#FFF !important;
-}
