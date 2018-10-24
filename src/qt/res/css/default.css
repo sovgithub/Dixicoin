@@ -1147,13 +1147,13 @@ margin-top:83px;
 margin-left:16px;
 margin-right:5px;
 min-height:16px;
-color:#fff;
+color:#fff!importnant;
 font-weight:bold
 }
 
 QWidget .QFrame#frame_2 QListView { /* Transaction List */
 font-weight:normal;
-color:#fff;
+color:#fff!important;
 font-size:12px;
 max-width:369px;
 margin-top:12px;
