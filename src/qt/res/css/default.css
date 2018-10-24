@@ -319,12 +319,12 @@ border-right:0;
 }
 
 .QScrollArea {
-background:#474747;
+background:transparent;
 border:0;
 }
 
 .QTableView { /* Table - has to be selected as a class otherwise it throws off QCalendarWidget */
-background:transparent;
+background:#474747;
 border:1px solid #333;
 }
 
