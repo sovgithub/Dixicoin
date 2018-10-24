@@ -1585,7 +1585,7 @@ text-align:center;
 
 TransactionView QComboBox {
 margin-bottom:1px;
-margin-right:1px;
+margin-right:1px; 
 }
 
 QLabel#transactionSumLabel { /* Example of setObjectName for widgets without name */
@@ -1621,11 +1621,11 @@ background-color:#fff;
 }
 
 QCalendarWidget QAbstractItemView:enabled { /* Calendar widget weekdays in month */
-color:#333;
+color:#fff !important;
 }
 
 QCalendarWidget QAbstractItemView:disabled { /* Calendar widget days not in month */
-color:#818181;
+color:#fff !important;
 }
 
 #OverviewPage{
