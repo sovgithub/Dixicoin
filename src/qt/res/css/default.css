@@ -108,7 +108,7 @@ outline:0; /* Remove Annoying Focus Rectangle */
 }
 
 QGroupBox {
-background-color:#fcfcfc;
+background-color:#333;
 color:#333;
 }
 
