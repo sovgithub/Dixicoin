@@ -1624,11 +1624,11 @@ background-color:#fff;
 }
 
 QCalendarWidget QAbstractItemView:enabled { /* Calendar widget weekdays in month */
-color:#333;
+color:#fff;
 }
 
 QCalendarWidget QAbstractItemView:disabled { /* Calendar widget days not in month */
-color:#818181;
+color:#fff;
 }
 
 #OverviewPage{
