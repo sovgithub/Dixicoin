@@ -1151,7 +1151,7 @@ min-height:16px;
 }
 
 QWidget .QFrame#frame_2 QListView { /* Transaction List */
-font-weight:normal;
+font-weight:bold;
 color:#fff;
 font-size:12px;
 max-width:369px;
@@ -1621,11 +1621,11 @@ background-color:#fff;
 }
 
 QCalendarWidget QAbstractItemView:enabled { /* Calendar widget weekdays in month */
-color:#fff !important;
+color:#333;
 }
 
 QCalendarWidget QAbstractItemView:disabled { /* Calendar widget days not in month */
-color:#fff !important;
+color:#333;
 }
 
 #OverviewPage{
