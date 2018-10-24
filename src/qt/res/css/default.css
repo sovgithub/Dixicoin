@@ -217,11 +217,11 @@ border-image: url(':/images/downArrow') 0 0 0 0 stretch stretch;
 }
 
 QComboBox QListView {
-background:#333;
+background:#fff;
 border:1px solid #333;
 padding-right:1px;
 padding-left:1px;
-color:#fff;
+color:#333;
 }
 
 QComboBox QAbstractItemView::item {
@@ -233,7 +233,7 @@ color:#818181;
 }
 
 QComboBox::item:alternate {
-background:#fff;
+background:#333;
 }
 
 QComboBox::item:selected {
