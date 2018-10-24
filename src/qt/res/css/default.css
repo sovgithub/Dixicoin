@@ -329,12 +329,12 @@ border:1px solid #333;
 }
 
 QTableView::item { /* Table Item */
-background-color:#fff;
+background-color:#474747;
 font-size:12px;
 }
 
 QTableView::item:selected { /* Table Item Selected */
-background-color:#474747;
+background-color:#fff;
 color:#fff;
 }
 
