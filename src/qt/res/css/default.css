@@ -126,7 +126,7 @@ color:#333;
 
 QLabel { /* Base Text Size & Color */
 font-size:12px;
-color:#fff;
+color:#cacaca;
 font-weight:bold;
 }
 
@@ -194,7 +194,7 @@ border:1px solid #474747;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
-color:#818181;
+color:#cacaca;
 }
 
 QComboBox:checked {
@@ -203,7 +203,7 @@ background:#f2f2f2;
 
 QComboBox:editable {
 background:#1928ff;
-color:#616161;
+color:#cacaca;
 border:0px solid transparent;
 }
 
@@ -221,7 +221,7 @@ background:#fff;
 border:1px solid #333;
 padding-right:1px;
 padding-left:1px;
-color:#818181;
+color:#cacaca;
 }
 
 QComboBox QAbstractItemView::item {
@@ -229,7 +229,7 @@ margin:4px;
 }
 
 QComboBox::item {
-color:#818181;
+color:#cacaca;
 }
 
 QComboBox::item:alternate {
