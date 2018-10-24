@@ -57,7 +57,7 @@ public:
         qint64 amount = index.data(TransactionTableModel::AmountRole).toLongLong();
         bool confirmed = index.data(TransactionTableModel::ConfirmedRole).toBool();
         QVariant value = index.data(Qt::ForegroundRole);
-        QColor foreground = COLOR_BLACK;
+        QColor foreground = COLOR_WHITE;
         if (value.canConvert<QBrush>()) {
             QBrush brush = qvariant_cast<QBrush>(value);
             foreground = brush.color();
