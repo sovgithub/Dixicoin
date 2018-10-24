@@ -324,12 +324,12 @@ border:0;
 }
 
 .QTableView { /* Table - has to be selected as a class otherwise it throws off QCalendarWidget */
-background:#474747;
+background:#fff;
 border:1px solid #333;
 }
 
 QTableView::item { /* Table Item */
-background-color:#474747;
+background-color:#fff;
 font-size:12px;
 }
 
