@@ -1124,6 +1124,7 @@ margin-right:20px;
 margin-left:0;
 margin-top:0;
 color:#fff;
+font-weight:bold;
 background-image: url(':/images/dixicoin_logo_horizontal');
 background-repeat:none;
 }
@@ -1147,13 +1148,13 @@ margin-top:83px;
 margin-left:16px;
 margin-right:5px;
 min-height:16px;
-color:#ff0000!important;
-font-weight:normal
+color:#fff;
+font-weight:bold
 }
 
 QWidget .QFrame#frame_2 QListView { /* Transaction List */
-font-weight:normal;
-color:#ff0000!important;
+font-weight:bold;
+color:#fff;
 font-size:12px;
 max-width:369px;
 margin-top:12px;
