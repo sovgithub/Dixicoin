@@ -33,11 +33,11 @@ background-color:#f8f6f6;
 }
 
 QMenu {
-background-color:#f8f6f6;
+background-color:#333;
 }
 
 QMenu::item {
-color:#333;
+color:#fff;
 }
 
 QMenu::item:selected {
@@ -103,12 +103,12 @@ background-color:#dedbe5;
 
 QWidget {
 selection-background-color:#474747; /* Object highlight color */
-selection-color:#fff;
+color:#fff;
 outline:0; /* Remove Annoying Focus Rectangle */
 }
 
 QGroupBox {
-background-color:#f2f2f2;
+background-color:#fcfcfc;
 color:#333;
 }
 
@@ -221,7 +221,7 @@ background:#fff;
 border:1px solid #333;
 padding-right:1px;
 padding-left:1px;
-color:#333;
+color:#818181;
 }
 
 QComboBox QAbstractItemView::item {
@@ -233,7 +233,7 @@ color:#818181;
 }
 
 QComboBox::item:alternate {
-background:#333;
+background:#fff;
 }
 
 QComboBox::item:selected {
@@ -324,7 +324,7 @@ border:0;
 }
 
 .QTableView { /* Table - has to be selected as a class otherwise it throws off QCalendarWidget */
-background:#fff;
+background:transparent;
 border:1px solid #333;
 }
 
@@ -334,8 +334,8 @@ font-size:12px;
 }
 
 QTableView::item:selected { /* Table Item Selected */
-background-color:#fff;
-color:#333;
+background-color:#474747;
+color:#fff;
 }
 
 QTableWidget { /* Table Background */
@@ -1151,7 +1151,7 @@ min-height:16px;
 }
 
 QWidget .QFrame#frame_2 QListView { /* Transaction List */
-font-weight:bold;
+font-weight:normal;
 color:#fff;
 font-size:12px;
 max-width:369px;
@@ -1521,7 +1521,7 @@ padding-right:10px;
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 QPushButton#clearButton:hover {
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
-color:#fff;
+color:#333;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 QPushButton#clearButton:pressed {
@@ -1538,7 +1538,7 @@ padding-right:10px;
 
 QWidget#ReceiveCoinsDialog .QFrame#frame QPushButton#showRequestButton:hover {
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
-color:#fff;
+color:#333;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame QPushButton#showRequestButton:pressed {
@@ -1555,7 +1555,7 @@ padding-right:10px;
 
 QWidget#ReceiveCoinsDialog .QFrame#frame QPushButton#removeRequestButton:hover {
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
-color:#fff;
+color:#333;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame QPushButton#removeRequestButton:pressed {
@@ -1585,7 +1585,7 @@ text-align:center;
 
 TransactionView QComboBox {
 margin-bottom:1px;
-margin-right:1px; 
+margin-right:1px;
 }
 
 QLabel#transactionSumLabel { /* Example of setObjectName for widgets without name */
@@ -1601,7 +1601,6 @@ color:#fff;
 
 QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 border:1px solid #d7d7d7;
-color:#fff;
 }
 
 /********************************* CALENDAR WIDGET **************************************/
@@ -1625,7 +1624,7 @@ color:#333;
 }
 
 QCalendarWidget QAbstractItemView:disabled { /* Calendar widget days not in month */
-color:#333;
+color:#818181;
 }
 
 #OverviewPage{
